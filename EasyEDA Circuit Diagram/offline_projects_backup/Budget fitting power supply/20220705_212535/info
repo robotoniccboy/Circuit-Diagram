@@ -1,0 +1,491 @@
+{
+  "uuid": "9da00a0ee0195734d28f4b9cb71c4e9d",
+  "path": "Offline/Budget%20fitting%20power%20supply",
+  "name": "Budget fitting power supply",
+  "content": "",
+  "created_at": "2022-06-25 18:59:28",
+  "updated_at": "2022-07-05 21:25:35",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "2075b128c32adbd8032858594f05cf54",
+      "title": "Circuit diagram",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "009182d76187436e8032b9f6f4ba373a": 2,
+        "5a0f21d03d46477db8020123bdb6cc27": 10,
+        "3ec77201bbcd4ecd8722658d581a4e60": 2,
+        "f02d1e392b4449f3a84339266e108ba3": 1,
+        "bb009484ef804a24ac5d18c54b249586": 3,
+        "5cbe824183374fac8e4c1ae848199ce3": 3,
+        "463a28e66b5c4a799c24992115b7034a": 1,
+        "34a51055ac414c3da95a9bdc0fcdec2d": 1,
+        "daa3cf3493c84fa3b0b6a6d427d23f0b": 1,
+        "fcaba4851eda4ca19d4326a668633a30": 2,
+        "f6a0f63d3e2647fead830f4c64dcbbe5": 4,
+        "e33cc1be9d5e4d929dda60b4eb023d72": 2,
+        "a80555bd0c9d4a0d954d1de7845a3e88": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "6A4",
+          2,
+          "SOD-123_L2.8-W1.8-LS3.7-RD",
+          "D5,D6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C328592",
+            "BOM_Manufacturer": "BLUE ROCKET",
+            "BOM_Manufacturer Part": "1N4007W",
+            "puuid": "60a676d313ae48718a81c380b73dfe4f",
+            "uuid": "e33cc1be9d5e4d929dda60b4eb023d72"
+          }
+        ],
+        [
+          "DC005-2.0MM",
+          1,
+          "DC-IN-TH_DC005",
+          "DC1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "SOFNG",
+            "BOM_Manufacturer Part": "DC005-2.0MM",
+            "BOM_Supplier Part": "C111567",
+            "puuid": "1337670005c6484c999f9b4c272ee9fe",
+            "uuid": "daa3cf3493c84fa3b0b6a6d427d23f0b"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x2",
+          1,
+          "HDR-F-2.54_1X2",
+          "H1",
+          {
+            "BOM_Supplier Part": "C49661",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "36b1306a115341f4b4d9407fb34974e0",
+            "uuid": "3ec77201bbcd4ecd8722658d581a4e60"
+          }
+        ],
+        [
+          "Switch",
+          1,
+          "HDR-F-2.54_1X2",
+          "H2",
+          {
+            "BOM_Supplier Part": "C49661",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "36b1306a115341f4b4d9407fb34974e0",
+            "uuid": "3ec77201bbcd4ecd8722658d581a4e60"
+          }
+        ],
+        [
+          "LED-0603_R",
+          3,
+          "LED0603_RED",
+          "LED1,LED2,LED3",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "BOM_Supplier Part": "C72044",
+            "BOM_Supplier": "LCSC",
+            "puuid": "1efb3a885b5b4aecb6d41221a8f4d86b",
+            "uuid": "5cbe824183374fac8e4c1ae848199ce3"
+          }
+        ],
+        [
+          "1k",
+          2,
+          "R0603",
+          "R1,R2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "R0603",
+          "R3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "R_3386P_EU",
+          2,
+          "RES-ADJ-TH_3386P",
+          "RP2,TRIMPOT",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ce6e0cc9b0684cd986edbf86d7075dfd",
+            "uuid": "fcaba4851eda4ca19d4326a668633a30"
+          }
+        ],
+        [
+          "Banana Socket",
+          10,
+          "BANANA SOCKET",
+          "U1,U4,U5,U6,U7,U8,U9,U10,U14,U15",
+          {
+            "BOM_Manufacturer": "Reichelt",
+            "BOM_Manufacturer Part": "BB 4 RT",
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "072308",
+            "puuid": "142c7482131343a693cc23ce5a4c59b4",
+            "uuid": "5a0f21d03d46477db8020123bdb6cc27"
+          }
+        ],
+        [
+          "Pin Header Connector 5 Pins, Pitch 2.54mm",
+          2,
+          "PIN HEADER CONNECTOR 5 PINS, PITCH 2.54MM",
+          "U2,U3",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "9b4bf91db9674e84b39bec360bfb3809",
+            "uuid": "009182d76187436e8032b9f6f4ba373a"
+          }
+        ],
+        [
+          "motor",
+          1,
+          "VIBE-MOTOR-10MM",
+          "U11",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "c5b8a3e78af9421ea4f9402e6d23cb52",
+            "uuid": "f02d1e392b4449f3a84339266e108ba3"
+          }
+        ],
+        [
+          "Buck converter",
+          1,
+          "BUCK CONVERTER CC CV",
+          "U12",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "783dfecad36b4eff8b06d7d2557f7aaf",
+            "uuid": "463a28e66b5c4a799c24992115b7034a"
+          }
+        ],
+        [
+          "Voltmeter Ammeter 4 digit",
+          1,
+          "VOLTMETER AMMETER 4 DIGIT",
+          "U13",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "aliexpress",
+            "puuid": "5b731a2492354e40bd703474e46578cd",
+            "uuid": "34a51055ac414c3da95a9bdc0fcdec2d"
+          }
+        ],
+        [
+          "Pin Header Connector 3 Pins, Pitch 2.54mm",
+          4,
+          "PIN HEADER CONNECTOR 3 PINS, PITCH 2.54MM",
+          "U16,U17,U18,U19",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "093a3b36a9c94c18a1cd378fd35fe037",
+            "uuid": "f6a0f63d3e2647fead830f4c64dcbbe5"
+          }
+        ],
+        [
+          "TERMINAL BLOCK 2 PINS",
+          2,
+          "5A_2PIN-TERMINALBLOCK",
+          "U21,U22",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "765e430c5cdb410e81e178bba00116b2",
+            "uuid": "a80555bd0c9d4a0d954d1de7845a3e88"
+          }
+        ]
+      ],
+      "updateTime": 1657036517,
+      "createTime": 1656163768,
+      "histories": [],
+      "created_at": "2022-06-25 18:59:28",
+      "updated_at": "2022-07-05 21:25:17"
+    },
+    {
+      "uuid": "7a4bc7fc6a04ba0205170f8f7b5f1cd1",
+      "title": "Buck converter",
+      "description": "",
+      "docType": "1",
+      "master": "7eec2d083414c8e764eb04f643432cdf",
+      "thumb": "/images/thumb-default.png",
+      "components": {},
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "6A4",
+          2,
+          "SOD-123_L2.8-W1.8-LS3.7-RD",
+          "D5,D6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C328592",
+            "BOM_Manufacturer": "BLUE ROCKET",
+            "BOM_Manufacturer Part": "1N4007W",
+            "puuid": "60a676d313ae48718a81c380b73dfe4f",
+            "uuid": "e33cc1be9d5e4d929dda60b4eb023d72"
+          }
+        ],
+        [
+          "DC005-2.0MM",
+          1,
+          "DC-IN-TH_DC005",
+          "DC1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "SOFNG",
+            "BOM_Manufacturer Part": "DC005-2.0MM",
+            "BOM_Supplier Part": "C111567",
+            "puuid": "1337670005c6484c999f9b4c272ee9fe",
+            "uuid": "daa3cf3493c84fa3b0b6a6d427d23f0b"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x2",
+          1,
+          "HDR-F-2.54_1X2",
+          "H1",
+          {
+            "BOM_Supplier Part": "C49661",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "36b1306a115341f4b4d9407fb34974e0",
+            "uuid": "3ec77201bbcd4ecd8722658d581a4e60"
+          }
+        ],
+        [
+          "Switch",
+          1,
+          "HDR-F-2.54_1X2",
+          "H2",
+          {
+            "BOM_Supplier Part": "C49661",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "36b1306a115341f4b4d9407fb34974e0",
+            "uuid": "3ec77201bbcd4ecd8722658d581a4e60"
+          }
+        ],
+        [
+          "LED-0603_R",
+          3,
+          "LED0603_RED",
+          "LED1,LED2,LED3",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "BOM_Supplier Part": "C72044",
+            "BOM_Supplier": "LCSC",
+            "puuid": "1efb3a885b5b4aecb6d41221a8f4d86b",
+            "uuid": "5cbe824183374fac8e4c1ae848199ce3"
+          }
+        ],
+        [
+          "1k",
+          2,
+          "R0603",
+          "R1,R2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "R0603",
+          "R3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "R_3386P_EU",
+          2,
+          "RES-ADJ-TH_3386P",
+          "RP2,TRIMPOT",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ce6e0cc9b0684cd986edbf86d7075dfd",
+            "uuid": "fcaba4851eda4ca19d4326a668633a30"
+          }
+        ],
+        [
+          "Banana Socket",
+          10,
+          "BANANA SOCKET",
+          "U1,U4,U5,U6,U7,U8,U9,U10,U14,U15",
+          {
+            "BOM_Manufacturer": "Reichelt",
+            "BOM_Manufacturer Part": "BB 4 RT",
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "072308",
+            "puuid": "142c7482131343a693cc23ce5a4c59b4",
+            "uuid": "5a0f21d03d46477db8020123bdb6cc27"
+          }
+        ],
+        [
+          "Pin Header Connector 5 Pins, Pitch 2.54mm",
+          2,
+          "PIN HEADER CONNECTOR 5 PINS, PITCH 2.54MM",
+          "U2,U3",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "9b4bf91db9674e84b39bec360bfb3809",
+            "uuid": "009182d76187436e8032b9f6f4ba373a"
+          }
+        ],
+        [
+          "motor",
+          1,
+          "VIBE-MOTOR-10MM",
+          "U11",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "c5b8a3e78af9421ea4f9402e6d23cb52",
+            "uuid": "f02d1e392b4449f3a84339266e108ba3"
+          }
+        ],
+        [
+          "Buck converter",
+          1,
+          "BUCK CONVERTER CC CV",
+          "U12",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "783dfecad36b4eff8b06d7d2557f7aaf",
+            "uuid": "463a28e66b5c4a799c24992115b7034a"
+          }
+        ],
+        [
+          "Voltmeter Ammeter 4 digit",
+          1,
+          "VOLTMETER AMMETER 4 DIGIT",
+          "U13",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "aliexpress",
+            "puuid": "5b731a2492354e40bd703474e46578cd",
+            "uuid": "34a51055ac414c3da95a9bdc0fcdec2d"
+          }
+        ],
+        [
+          "Pin Header Connector 3 Pins, Pitch 2.54mm",
+          4,
+          "PIN HEADER CONNECTOR 3 PINS, PITCH 2.54MM",
+          "U16,U17,U18,U19",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "093a3b36a9c94c18a1cd378fd35fe037",
+            "uuid": "f6a0f63d3e2647fead830f4c64dcbbe5"
+          }
+        ],
+        [
+          "TERMINAL BLOCK 2 PINS",
+          2,
+          "5A_2PIN-TERMINALBLOCK",
+          "U21,U22",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "765e430c5cdb410e81e178bba00116b2",
+            "uuid": "a80555bd0c9d4a0d954d1de7845a3e88"
+          }
+        ]
+      ],
+      "updateTime": 1657036535,
+      "createTime": 1657036517,
+      "histories": [],
+      "created_at": "2022-07-05 21:25:17",
+      "updated_at": "2022-07-05 21:25:35"
+    }
+  ],
+  "sort": [
+    "2075b128c32adbd8032858594f05cf54",
+    "7a4bc7fc6a04ba0205170f8f7b5f1cd1"
+  ],
+  "title": "Budget fitting power supply",
+  "foldername": "Budget fitting power supply",
+  "schfilename": "Budget fitting power supply.json",
+  "schfilemtime": 1657036535651
+}

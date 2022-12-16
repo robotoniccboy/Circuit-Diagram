@@ -1,0 +1,82 @@
+{
+  "uuid": "a7d0b6043db952b4aed8c0ce36368f59",
+  "path": "Offline/5%20Li%20ion%20battery%20charger",
+  "name": "5 Li ion battery charger",
+  "content": "",
+  "created_at": "2022-07-02 13:36:25",
+  "updated_at": "2022-07-02 13:53:05",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "129d67e76972d0e78ab5bee16ca1abdb",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "4b557b5b87eec7c700cb47802f938b69",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "2849b3f24ec043658a1a0e125e36f16d": 5,
+        "aef8b2a9c54946bc98cd95358c6646ad": 5,
+        "ff1e33b2477648a09f66e1648018dcf9": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "10uF",
+          5,
+          "CAPACITOR1000UF16V",
+          "C1,C2,C3,C4,C5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ValuePro",
+            "BOM_Manufacturer Part": "electrolytic capacitor10UF50V",
+            "BOM_Supplier Part": "C32856",
+            "puuid": "182fe985c1a84abab5ef08dc603a1ff9",
+            "uuid": "aef8b2a9c54946bc98cd95358c6646ad"
+          }
+        ],
+        [
+          "7805IC",
+          5,
+          "7805",
+          "U1,U2,U3,U4,U5",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "daa3e4b220b747f1b4565d7b709b7cdd",
+            "uuid": "2849b3f24ec043658a1a0e125e36f16d"
+          }
+        ],
+        [
+          "fan_12v",
+          1,
+          "12V FAN",
+          "U6",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "506de9fcc7a749acbba188d31e3e08ae",
+            "uuid": "ff1e33b2477648a09f66e1648018dcf9"
+          }
+        ]
+      ],
+      "updateTime": 1656750185,
+      "createTime": 1656749185,
+      "histories": [],
+      "created_at": "2022-07-02 13:36:25",
+      "updated_at": "2022-07-02 13:53:05"
+    }
+  ],
+  "sort": [],
+  "title": "5 Li ion battery charger",
+  "foldername": "5 Li ion battery charger",
+  "schfilename": "5 Li ion battery charger.json",
+  "schfilemtime": 1656750185948
+}

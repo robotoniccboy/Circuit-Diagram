@@ -1,0 +1,510 @@
+{
+  "uuid": "a7d0b6043db952b4aed8c0ce36368f59",
+  "path": "Offline/5%20Li%20ion%20battery%20charger",
+  "name": "5 Li ion battery charger",
+  "content": "",
+  "created_at": "2022-07-02 13:36:25",
+  "updated_at": "2022-08-25 09:07:49",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "129d67e76972d0e78ab5bee16ca1abdb",
+      "title": "12v to 5v",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "2849b3f24ec043658a1a0e125e36f16d": 5,
+        "aef8b2a9c54946bc98cd95358c6646ad": 5,
+        "ff1e33b2477648a09f66e1648018dcf9": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "10uF",
+          5,
+          "CAPACITOR1000UF16V",
+          "C1,C2,C3,C4,C5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ValuePro",
+            "BOM_Manufacturer Part": "electrolytic capacitor10UF50V",
+            "BOM_Supplier Part": "C32856",
+            "puuid": "182fe985c1a84abab5ef08dc603a1ff9",
+            "uuid": "aef8b2a9c54946bc98cd95358c6646ad"
+          }
+        ],
+        [
+          "7805IC",
+          5,
+          "7805",
+          "U1,U2,U3,U4,U5",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "daa3e4b220b747f1b4565d7b709b7cdd",
+            "uuid": "2849b3f24ec043658a1a0e125e36f16d"
+          }
+        ],
+        [
+          "fan_12v",
+          1,
+          "12V FAN",
+          "U6",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "506de9fcc7a749acbba188d31e3e08ae",
+            "uuid": "ff1e33b2477648a09f66e1648018dcf9"
+          }
+        ],
+        [
+          "18650 1-CELL HOLDER",
+          5,
+          "18650 1-CELL HOLDER",
+          "B1,B2,B3,B4,B5",
+          {
+            "BOM_Manufacturer Part": "Battery_holder_18650",
+            "puuid": "bb16eb0a618048d281287266a90737a4",
+            "uuid": "a9edd3f2bd1f4399a64c5dfeea4895f3"
+          }
+        ],
+        [
+          "10uF",
+          5,
+          "CAPACITOR1000UF16V",
+          "C6,C7,C8,C9,C10",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ValuePro",
+            "BOM_Manufacturer Part": "electrolytic capacitor10UF50V",
+            "BOM_Supplier Part": "C32856",
+            "puuid": "182fe985c1a84abab5ef08dc603a1ff9",
+            "uuid": "aef8b2a9c54946bc98cd95358c6646ad"
+          }
+        ],
+        [
+          "TP4056_2",
+          5,
+          "TP4056",
+          "G$1,G$2,G$3,G$4,G$5",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "1eec3cf013234e66ba93545a38efc75f",
+            "uuid": "e64b91005d9e450782ba5e32c71ef040"
+          }
+        ],
+        [
+          "fan_12v",
+          1,
+          "12V FAN",
+          "U7",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "506de9fcc7a749acbba188d31e3e08ae",
+            "uuid": "ff1e33b2477648a09f66e1648018dcf9"
+          }
+        ],
+        [
+          "7805IC",
+          5,
+          "7805",
+          "U8,U9,U10,U11,U12",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "daa3e4b220b747f1b4565d7b709b7cdd",
+            "uuid": "2849b3f24ec043658a1a0e125e36f16d"
+          }
+        ]
+      ],
+      "updateTime": 1661397519,
+      "createTime": 1656749185,
+      "histories": [],
+      "created_at": "2022-07-02 13:36:25",
+      "updated_at": "2022-08-25 08:48:39"
+    },
+    {
+      "uuid": "57953d4e208d13db34a9ca22aca6c2b5",
+      "title": "connection with TP4056",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "ff1e33b2477648a09f66e1648018dcf9": 1,
+        "aef8b2a9c54946bc98cd95358c6646ad": 5,
+        "2849b3f24ec043658a1a0e125e36f16d": 5,
+        "e64b91005d9e450782ba5e32c71ef040": 5,
+        "a9edd3f2bd1f4399a64c5dfeea4895f3": 5
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "10uF",
+          5,
+          "CAPACITOR1000UF16V",
+          "C1,C2,C3,C4,C5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ValuePro",
+            "BOM_Manufacturer Part": "electrolytic capacitor10UF50V",
+            "BOM_Supplier Part": "C32856",
+            "puuid": "182fe985c1a84abab5ef08dc603a1ff9",
+            "uuid": "aef8b2a9c54946bc98cd95358c6646ad"
+          }
+        ],
+        [
+          "7805IC",
+          5,
+          "7805",
+          "U1,U2,U3,U4,U5",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "daa3e4b220b747f1b4565d7b709b7cdd",
+            "uuid": "2849b3f24ec043658a1a0e125e36f16d"
+          }
+        ],
+        [
+          "fan_12v",
+          1,
+          "12V FAN",
+          "U6",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "506de9fcc7a749acbba188d31e3e08ae",
+            "uuid": "ff1e33b2477648a09f66e1648018dcf9"
+          }
+        ],
+        [
+          "18650 1-CELL HOLDER",
+          5,
+          "18650 1-CELL HOLDER",
+          "B1,B2,B3,B4,B5",
+          {
+            "BOM_Manufacturer Part": "Battery_holder_18650",
+            "puuid": "bb16eb0a618048d281287266a90737a4",
+            "uuid": "a9edd3f2bd1f4399a64c5dfeea4895f3"
+          }
+        ],
+        [
+          "10uF",
+          5,
+          "CAPACITOR1000UF16V",
+          "C6,C7,C8,C9,C10",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ValuePro",
+            "BOM_Manufacturer Part": "electrolytic capacitor10UF50V",
+            "BOM_Supplier Part": "C32856",
+            "puuid": "182fe985c1a84abab5ef08dc603a1ff9",
+            "uuid": "aef8b2a9c54946bc98cd95358c6646ad"
+          }
+        ],
+        [
+          "TP4056_2",
+          5,
+          "TP4056",
+          "G$1,G$2,G$3,G$4,G$5",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "1eec3cf013234e66ba93545a38efc75f",
+            "uuid": "e64b91005d9e450782ba5e32c71ef040"
+          }
+        ],
+        [
+          "fan_12v",
+          1,
+          "12V FAN",
+          "U7",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "506de9fcc7a749acbba188d31e3e08ae",
+            "uuid": "ff1e33b2477648a09f66e1648018dcf9"
+          }
+        ],
+        [
+          "7805IC",
+          5,
+          "7805",
+          "U8,U9,U10,U11,U12",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "daa3e4b220b747f1b4565d7b709b7cdd",
+            "uuid": "2849b3f24ec043658a1a0e125e36f16d"
+          }
+        ]
+      ],
+      "updateTime": 1661397704,
+      "createTime": 1657902135,
+      "histories": [],
+      "created_at": "2022-07-15 21:52:15",
+      "updated_at": "2022-08-25 08:51:44"
+    },
+    {
+      "uuid": "bdab85cdab4d7d66f3ea1cd46696a571",
+      "title": "Complete Circuit Diagram",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "a9edd3f2bd1f4399a64c5dfeea4895f3": 5,
+        "e64b91005d9e450782ba5e32c71ef040": 5,
+        "2849b3f24ec043658a1a0e125e36f16d": 5,
+        "aef8b2a9c54946bc98cd95358c6646ad": 5,
+        "ff1e33b2477648a09f66e1648018dcf9": 1,
+        "af73fce13d3f45afb56606dc6205c607": 1,
+        "18fb0b61a1fb46b8b2eb84b1fce33f6c": 1,
+        "5c1036b53a4146e4841df4ed0a9de8f0": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "10uF",
+          5,
+          "CAPACITOR1000UF16V",
+          "C1,C2,C3,C4,C5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ValuePro",
+            "BOM_Manufacturer Part": "electrolytic capacitor10UF50V",
+            "BOM_Supplier Part": "C32856",
+            "puuid": "182fe985c1a84abab5ef08dc603a1ff9",
+            "uuid": "aef8b2a9c54946bc98cd95358c6646ad"
+          }
+        ],
+        [
+          "7805IC",
+          5,
+          "7805",
+          "U1,U2,U3,U4,U5",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "daa3e4b220b747f1b4565d7b709b7cdd",
+            "uuid": "2849b3f24ec043658a1a0e125e36f16d"
+          }
+        ],
+        [
+          "fan_12v",
+          1,
+          "12V FAN",
+          "U6",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "506de9fcc7a749acbba188d31e3e08ae",
+            "uuid": "ff1e33b2477648a09f66e1648018dcf9"
+          }
+        ],
+        [
+          "18650 1-CELL HOLDER",
+          5,
+          "18650 1-CELL HOLDER",
+          "B1,B2,B3,B4,B5",
+          {
+            "BOM_Manufacturer Part": "Battery_holder_18650",
+            "puuid": "bb16eb0a618048d281287266a90737a4",
+            "uuid": "a9edd3f2bd1f4399a64c5dfeea4895f3"
+          }
+        ],
+        [
+          "10uF",
+          5,
+          "CAPACITOR1000UF16V",
+          "C6,C7,C8,C9,C10",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ValuePro",
+            "BOM_Manufacturer Part": "electrolytic capacitor10UF50V",
+            "BOM_Supplier Part": "C32856",
+            "puuid": "182fe985c1a84abab5ef08dc603a1ff9",
+            "uuid": "aef8b2a9c54946bc98cd95358c6646ad"
+          }
+        ],
+        [
+          "TP4056_2",
+          5,
+          "TP4056",
+          "G$1,G$2,G$3,G$4,G$5",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "1eec3cf013234e66ba93545a38efc75f",
+            "uuid": "e64b91005d9e450782ba5e32c71ef040"
+          }
+        ],
+        [
+          "fan_12v",
+          1,
+          "12V FAN",
+          "U7",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "506de9fcc7a749acbba188d31e3e08ae",
+            "uuid": "ff1e33b2477648a09f66e1648018dcf9"
+          }
+        ],
+        [
+          "7805IC",
+          5,
+          "7805",
+          "U8,U9,U10,U11,U12",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "daa3e4b220b747f1b4565d7b709b7cdd",
+            "uuid": "2849b3f24ec043658a1a0e125e36f16d"
+          }
+        ],
+        [
+          "18650 1-CELL HOLDER",
+          5,
+          "18650 1-CELL HOLDER",
+          "B6,B7,B8,B9,B10",
+          {
+            "BOM_Manufacturer Part": "Battery_holder_18650",
+            "puuid": "bb16eb0a618048d281287266a90737a4",
+            "uuid": "a9edd3f2bd1f4399a64c5dfeea4895f3"
+          }
+        ],
+        [
+          "10uF",
+          5,
+          "CAPACITOR1000UF16V",
+          "C11,C12,C13,C14,C15",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ValuePro",
+            "BOM_Manufacturer Part": "electrolytic capacitor10UF50V",
+            "BOM_Supplier Part": "C32856",
+            "puuid": "182fe985c1a84abab5ef08dc603a1ff9",
+            "uuid": "aef8b2a9c54946bc98cd95358c6646ad"
+          }
+        ],
+        [
+          "power_socket",
+          1,
+          "CONN-TH_SOCKET.BLUE5566-2ANEEDLE",
+          "CN1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "socket.blue5566-2Aneedle",
+            "BOM_Supplier Part": "C62133",
+            "puuid": "3d2d90f5768d47e78dada8fd9a67126e",
+            "uuid": "18fb0b61a1fb46b8b2eb84b1fce33f6c"
+          }
+        ],
+        [
+          "TP4056_2",
+          5,
+          "TP4056",
+          "G$6,G$7,G$8,G$9,G$10",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "1eec3cf013234e66ba93545a38efc75f",
+            "uuid": "e64b91005d9e450782ba5e32c71ef040"
+          }
+        ],
+        [
+          "K2-3.6×6.1_SMD",
+          1,
+          "KEY-SMD_2P-L6.2-W3.6-LS8.0",
+          "KEY1",
+          {
+            "BOM_Supplier Part": "C118141",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "K2-1107ST-A4SW-06",
+            "puuid": "daacbe2eec304950b61eef2efe596556",
+            "uuid": "5c1036b53a4146e4841df4ed0a9de8f0"
+          }
+        ],
+        [
+          "7805IC",
+          5,
+          "7805",
+          "U13,U14,U15,U16,U17",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "daa3e4b220b747f1b4565d7b709b7cdd",
+            "uuid": "2849b3f24ec043658a1a0e125e36f16d"
+          }
+        ],
+        [
+          "fan_12v",
+          1,
+          "12V FAN",
+          "U18",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "506de9fcc7a749acbba188d31e3e08ae",
+            "uuid": "ff1e33b2477648a09f66e1648018dcf9"
+          }
+        ],
+        [
+          "Charger",
+          1,
+          "CHARGER",
+          "U19",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "f47ad369cfc54bdba9447c7d1dea5aed",
+            "uuid": "af73fce13d3f45afb56606dc6205c607"
+          }
+        ]
+      ],
+      "updateTime": 1661398669,
+      "createTime": 1661397729,
+      "histories": [],
+      "created_at": "2022-08-25 08:52:09",
+      "updated_at": "2022-08-25 09:07:49"
+    }
+  ],
+  "sort": [
+    "129d67e76972d0e78ab5bee16ca1abdb",
+    "57953d4e208d13db34a9ca22aca6c2b5",
+    "bdab85cdab4d7d66f3ea1cd46696a571"
+  ],
+  "title": "5 Li ion battery charger",
+  "foldername": "5 Li ion battery charger",
+  "schfilename": "5 Li ion battery charger.json",
+  "schfilemtime": 1661398669557
+}

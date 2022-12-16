@@ -1,0 +1,166 @@
+{
+  "uuid": "f3229c72cc4b92b629b49466ca5f3b87",
+  "path": "Offline/5v%20Power%20supply",
+  "name": "5v Power supply",
+  "content": "",
+  "created_at": "2022-09-22 17:26:59",
+  "updated_at": "2022-09-22 19:20:58",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "35737df86c6403c32547c79f04170812",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "ced5bc4e55594a3b8003ff5fd639537c": 4,
+        "909dd51a5716454f8e3592584cc4a052": 1,
+        "ff9440b7ce96480584605958f32e578c": 2,
+        "8967880cc47746b8b2123e53e9f96833": 1,
+        "faaec9ea23304e1c98a06845f397bfe4": 1,
+        "f47a236193c54b08a4632df7767ed9c1": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1000uF/16v",
+          1,
+          "CAPACITOR1000UF16V",
+          "C1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ValuePro",
+            "BOM_Manufacturer Part": "electrolytic capacitor10UF50V",
+            "BOM_Supplier Part": "C32856",
+            "puuid": "6256903147004535b1f192515c1df533",
+            "uuid": "909dd51a5716454f8e3592584cc4a052"
+          }
+        ],
+        [
+          "6A4 P25mm",
+          3,
+          "6A4 DIODE P25MM",
+          "D1,D2,D4",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "11ea8b5e4afe44dd92ec50da19c572d3",
+            "uuid": "ced5bc4e55594a3b8003ff5fd639537c"
+          }
+        ],
+        [
+          "6A4",
+          1,
+          "6A4 DIODE P25MM",
+          "D3",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "11ea8b5e4afe44dd92ec50da19c572d3",
+            "uuid": "ced5bc4e55594a3b8003ff5fd639537c"
+          }
+        ],
+        [
+          "7805",
+          1,
+          "7805-TH",
+          "IC1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "35faaa0c78da4a4d9a248ed646c6a829",
+            "uuid": "8967880cc47746b8b2123e53e9f96833"
+          }
+        ],
+        [
+          "LED_LED5MM",
+          1,
+          "LED_LED5MM",
+          "LED1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "a88f3e01fa284527b30184a6a50193fc",
+            "uuid": "faaec9ea23304e1c98a06845f397bfe4"
+          }
+        ],
+        [
+          "1K",
+          1,
+          "RESISTOR",
+          "R1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "CFR0W4J0102A50",
+            "BOM_Supplier Part": "C61293",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "000a558ba26947b89f86b8947ce60aaa",
+            "uuid": "f47a236193c54b08a4632df7767ed9c1"
+          }
+        ],
+        [
+          "TERMINAL BLOCK 2 PINS",
+          2,
+          "5A_2PIN-TERMINALBLOCK",
+          "U1,U2",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "765e430c5cdb410e81e178bba00116b2",
+            "uuid": "ff9440b7ce96480584605958f32e578c"
+          }
+        ]
+      ],
+      "updateTime": 1663849320,
+      "createTime": 1663847819,
+      "histories": [],
+      "created_at": "2022-09-22 17:26:59",
+      "updated_at": "2022-09-22 17:52:00"
+    },
+    {
+      "uuid": "f2eef6f755e5562f8bb4e7f3eeb9b666",
+      "puuid": "f3229c72cc4b92b629b49466ca5f3b87",
+      "title": "PCB_5v Power supply",
+      "filename": "PCB_5v Power supply.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "6256903147004535b1f192515c1df533": 1,
+        "11ea8b5e4afe44dd92ec50da19c572d3": 4,
+        "35faaa0c78da4a4d9a248ed646c6a829": 1,
+        "a88f3e01fa284527b30184a6a50193fc": 1,
+        "765e430c5cdb410e81e178bba00116b2": 2,
+        "000a558ba26947b89f86b8947ce60aaa": 1
+      },
+      "BOM": [],
+      "updateTime": 1663854658,
+      "createTime": 1663849249,
+      "histories": [],
+      "created_at": "2022-09-22 17:50:49",
+      "updated_at": "2022-09-22 19:20:58"
+    }
+  ],
+  "sort": [],
+  "title": "5v Power supply",
+  "foldername": "5v Power supply",
+  "schfilename": "5v Power supply.json",
+  "schfilemtime": 1663849320277
+}

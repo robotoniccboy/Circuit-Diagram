@@ -1,0 +1,355 @@
+{
+  "uuid": "8f1b176b4fcc8056e868024b88d58e55",
+  "path": "Offline/Aunty",
+  "name": "Aunty",
+  "content": "",
+  "created_at": "2022-04-24 16:00:07",
+  "updated_at": "2022-04-24 16:22:00",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "0ebe587a98476a8e791dee843efe7d73",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "df0e389b41ab907057283b47c794bda9",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "36628af0fe3849a2f482991ed56c81b7": 1,
+        "b0248eb51e084227889f2cb84eab79c4": 3,
+        "5cbe824183374fac8e4c1ae848199ce3": 3,
+        "424653db4a734a47b15f972598f11ffa": 1,
+        "11c26d378ff94712ad40592617fc19fe": 1,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "0.1u",
+          2,
+          "C0603",
+          "C1,C2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "LED-0603_R",
+          3,
+          "LED0603_RED",
+          "LED1,LED2,LED3",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "BOM_Supplier Part": "C72044",
+            "BOM_Supplier": "LCSC",
+            "puuid": "1efb3a885b5b4aecb6d41221a8f4d86b",
+            "uuid": "5cbe824183374fac8e4c1ae848199ce3"
+          }
+        ],
+        [
+          "470R",
+          2,
+          "R0603",
+          "R1,R2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R0603",
+          "R3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "SOUND DETECTOR SENSOR",
+          1,
+          "DIGITAL SOUND DETECTOR SENSOR",
+          "SENSOR1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "AdaFruit",
+            "puuid": "05563b6f6b5a4fac84e1415f3b7235f2",
+            "uuid": "424653db4a734a47b15f972598f11ffa"
+          }
+        ],
+        [
+          "ATMEGA328P-PU",
+          1,
+          "DIP-28_L34.6-W7.3-P2.54-LS10.2-BL",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "MICROCHIP",
+            "BOM_Manufacturer Part": "ATMEGA328P-PU",
+            "BOM_Supplier Part": "C33901",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "2f1d96128ab94db491eae99d61bfb39c",
+            "uuid": "36628af0fe3849a2f482991ed56c81b7"
+          }
+        ],
+        [
+          "L7805",
+          1,
+          "L7805",
+          "U2",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "1eac8be1a02c4fb8b97912588c8d4229",
+            "uuid": "11c26d378ff94712ad40592617fc19fe"
+          }
+        ]
+      ],
+      "updateTime": 1650796913,
+      "createTime": 1650796207,
+      "histories": [],
+      "created_at": "2022-04-24 16:00:07",
+      "updated_at": "2022-04-24 16:11:53"
+    },
+    {
+      "uuid": "7fb5307178e32a9a76b2d8f3e3f935f0",
+      "title": "Sheet_2",
+      "description": "",
+      "docType": "1",
+      "master": "c28ad048e8e8ee0a581985f89e1f5559",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "36628af0fe3849a2f482991ed56c81b7": 1,
+        "b0248eb51e084227889f2cb84eab79c4": 5,
+        "5cbe824183374fac8e4c1ae848199ce3": 5,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 2,
+        "11c26d378ff94712ad40592617fc19fe": 1,
+        "78ecf3db18134c459055c3bf3bf09ac2": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "0.1u",
+          2,
+          "C0603",
+          "C1,C2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "LED-0603_R",
+          3,
+          "LED0603_RED",
+          "LED1,LED2,LED3",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "BOM_Supplier Part": "C72044",
+            "BOM_Supplier": "LCSC",
+            "puuid": "1efb3a885b5b4aecb6d41221a8f4d86b",
+            "uuid": "5cbe824183374fac8e4c1ae848199ce3"
+          }
+        ],
+        [
+          "470R",
+          2,
+          "R0603",
+          "R1,R2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R0603",
+          "R3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "SOUND DETECTOR SENSOR",
+          1,
+          "DIGITAL SOUND DETECTOR SENSOR",
+          "SENSOR1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "AdaFruit",
+            "puuid": "05563b6f6b5a4fac84e1415f3b7235f2",
+            "uuid": "424653db4a734a47b15f972598f11ffa"
+          }
+        ],
+        [
+          "ATMEGA328P-PU",
+          1,
+          "DIP-28_L34.6-W7.3-P2.54-LS10.2-BL",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "MICROCHIP",
+            "BOM_Manufacturer Part": "ATMEGA328P-PU",
+            "BOM_Supplier Part": "C33901",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "2f1d96128ab94db491eae99d61bfb39c",
+            "uuid": "36628af0fe3849a2f482991ed56c81b7"
+          }
+        ],
+        [
+          "L7805",
+          1,
+          "L7805",
+          "U2",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "1eac8be1a02c4fb8b97912588c8d4229",
+            "uuid": "11c26d378ff94712ad40592617fc19fe"
+          }
+        ],
+        [
+          "0.1u",
+          2,
+          "C0603",
+          "C3,C4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "LED-0603_R",
+          5,
+          "LED0603_RED",
+          "LED1,LED2,LED3,LED4,LED5",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "BOM_Supplier Part": "C72044",
+            "BOM_Supplier": "LCSC",
+            "puuid": "1efb3a885b5b4aecb6d41221a8f4d86b",
+            "uuid": "5cbe824183374fac8e4c1ae848199ce3"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R0603",
+          "R1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "470R",
+          4,
+          "R0603",
+          "R2,R3,R4,R5",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "ATMEGA328P-PU",
+          1,
+          "DIP-28_L34.6-W7.3-P2.54-LS10.2-BL",
+          "U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "MICROCHIP",
+            "BOM_Manufacturer Part": "ATMEGA328P-PU",
+            "BOM_Supplier Part": "C33901",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "2f1d96128ab94db491eae99d61bfb39c",
+            "uuid": "36628af0fe3849a2f482991ed56c81b7"
+          }
+        ],
+        [
+          "L7805",
+          1,
+          "L7805",
+          "U4",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "1eac8be1a02c4fb8b97912588c8d4229",
+            "uuid": "11c26d378ff94712ad40592617fc19fe"
+          }
+        ],
+        [
+          "ULTRASONIC-HC-SR04#V",
+          1,
+          "ULTRASONIC-HC-SR04#V",
+          "U5",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "",
+            "uuid": "78ecf3db18134c459055c3bf3bf09ac2"
+          }
+        ]
+      ],
+      "updateTime": 1650797520,
+      "createTime": 1650796913,
+      "histories": [],
+      "created_at": "2022-04-24 16:11:53",
+      "updated_at": "2022-04-24 16:22:00"
+    }
+  ],
+  "sort": [
+    "0ebe587a98476a8e791dee843efe7d73",
+    "7fb5307178e32a9a76b2d8f3e3f935f0"
+  ],
+  "title": "Aunty",
+  "foldername": "Aunty",
+  "schfilename": "Aunty.json",
+  "schfilemtime": 1650797520520
+}

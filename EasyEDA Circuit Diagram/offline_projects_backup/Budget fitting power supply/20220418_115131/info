@@ -1,0 +1,85 @@
+{
+  "uuid": "5b1fd97e8a8feb58db842abbbe01fc11",
+  "path": "Offline/Budget%20fitting%20power%20supply",
+  "name": "Budget fitting power supply",
+  "content": "",
+  "created_at": "2022-04-18 11:41:20",
+  "updated_at": "2022-04-18 11:51:31",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "c6f14eec504c27ec66579565dffd0b33",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "651a7c0910b23c33f9babd6d02fe6a71",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "286952e69a532726bf48e4bcafe6e878": 1,
+        "6804b0e5faa14a33b0005013a895437d": 1,
+        "009182d76187436e8032b9f6f4ba373a": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Headers  Pins1x15P 2.54mm",
+          1,
+          "HDR-TH_15P-P2.54-V-M",
+          "H1",
+          {
+            "BOM_Supplier Part": "C54102",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "Headers  Pins1x15P 2.54mm",
+            "puuid": "0d139e62728a49b09c74d4ad035ce944",
+            "uuid": "286952e69a532726bf48e4bcafe6e878"
+          }
+        ],
+        [
+          "Pin Header Connector 4 Pins, Pitch 2.54mm",
+          1,
+          "PIN HEADER CONNECTOR 4 PINS, PITCH 2.54MM",
+          "U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "8ac59471cdcb446c990ff69980c116ed",
+            "uuid": "6804b0e5faa14a33b0005013a895437d"
+          }
+        ],
+        [
+          "Pin Header Connector 5 Pins, Pitch 2.54mm",
+          2,
+          "PIN HEADER CONNECTOR 5 PINS, PITCH 2.54MM",
+          "U2,U3",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "9b4bf91db9674e84b39bec360bfb3809",
+            "uuid": "009182d76187436e8032b9f6f4ba373a"
+          }
+        ]
+      ],
+      "updateTime": 1650262891,
+      "createTime": 1650262280,
+      "histories": [],
+      "created_at": "2022-04-18 11:41:20",
+      "updated_at": "2022-04-18 11:51:31"
+    }
+  ],
+  "sort": [],
+  "title": "Budget fitting power supply",
+  "foldername": "Budget fitting power supply",
+  "schfilename": "Budget fitting power supply.json",
+  "schfilemtime": 1650262891889
+}

@@ -1,0 +1,55 @@
+{
+  "uuid": "5b1fd97e8a8feb58db842abbbe01fc11",
+  "path": "Offline/Budget%20fitting%20power%20supply",
+  "name": "Budget fitting power supply",
+  "content": "",
+  "created_at": "2022-04-18 11:41:20",
+  "updated_at": "2022-04-20 17:51:22",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "c6f14eec504c27ec66579565dffd0b33",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "f0d10c620be64fda202158475e013750",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "009182d76187436e8032b9f6f4ba373a": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Pin Header Connector 5 Pins, Pitch 2.54mm",
+          2,
+          "PIN HEADER CONNECTOR 5 PINS, PITCH 2.54MM",
+          "U2,U3",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "9b4bf91db9674e84b39bec360bfb3809",
+            "uuid": "009182d76187436e8032b9f6f4ba373a"
+          }
+        ]
+      ],
+      "updateTime": 1650457282,
+      "createTime": 1650262280,
+      "histories": [],
+      "created_at": "2022-04-18 11:41:20",
+      "updated_at": "2022-04-20 17:51:22"
+    }
+  ],
+  "sort": [],
+  "title": "Budget fitting power supply",
+  "foldername": "Budget fitting power supply",
+  "schfilename": "Budget fitting power supply.json",
+  "schfilemtime": 1650457282261
+}

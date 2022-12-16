@@ -1,0 +1,207 @@
+{
+  "uuid": "ef802c90da1a82440f27d0fb75c4d276",
+  "path": "Offline/555%20timer%20project",
+  "name": "555 timer project",
+  "content": "",
+  "created_at": "2022-09-23 19:18:11",
+  "updated_at": "2022-09-23 21:46:32",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "9a8fd430f75a2c24f13d92a33a041629",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "cb1f94941c894c36a255128e23c99911": 1,
+        "5081083fc867416c9f51f38625f50396": 3,
+        "8850ffcdb9d242a1b431d4a3e2209db1": 2,
+        "ef87d0b365ea413fb55617137b9305df": 1,
+        "9df386faaab44eb6ae56cb85eaca538c": 1,
+        "3ec77201bbcd4ecd8722658d581a4e60": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "10nF",
+          1,
+          "10NF",
+          "C1",
+          {
+            "BOM_EasyEDA": "E3758",
+            "BOM_Supplier Part": "E3758",
+            "BOM_Supplier": "EasyEDA",
+            "BOM_Manufacturer": "EasyEDA",
+            "BOM_Manufacturer Part": "103Z-50V",
+            "puuid": "459af5656bdf454da600c67ffc8b29bc",
+            "uuid": "ef87d0b365ea413fb55617137b9305df"
+          }
+        ],
+        [
+          "100uF 25v",
+          1,
+          "100UF/25V",
+          "C2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "-",
+            "puuid": "0fe311da5c9d412b97bf68b669667c5c",
+            "uuid": "9df386faaab44eb6ae56cb85eaca538c"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x2",
+          1,
+          "HDR-F-2.54_1X2",
+          "H1",
+          {
+            "BOM_Supplier Part": "C49661",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "36b1306a115341f4b4d9407fb34974e0",
+            "uuid": "3ec77201bbcd4ecd8722658d581a4e60"
+          }
+        ],
+        [
+          "LED-TH-5mm_R",
+          2,
+          "LED-TH_BD5.0_RED",
+          "LED1,LED2",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "333-2SURD/S530-A3",
+            "BOM_Supplier Part": "C87271",
+            "BOM_Supplier": "LCSC",
+            "puuid": "ce0ed154d45b41508e0debca8473ba07",
+            "uuid": "8850ffcdb9d242a1b431d4a3e2209db1"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "PKG-0.25W RESISTOR",
+          "R1",
+          {
+            "BOM_Supplier Part": "9339051",
+            "BOM_Supplier": "Element14",
+            "BOM_Manufacturer": "MULTICOMP",
+            "BOM_Manufacturer Part": "MCF 0.25W 10K",
+            "puuid": "670dd02695aa428d90561a3662ada51f",
+            "uuid": "5081083fc867416c9f51f38625f50396"
+          }
+        ],
+        [
+          "4k7",
+          1,
+          "PKG-0.25W RESISTOR",
+          "R2",
+          {
+            "BOM_Supplier Part": "9339051",
+            "BOM_Supplier": "Element14",
+            "BOM_Manufacturer": "MULTICOMP",
+            "BOM_Manufacturer Part": "MCF 0.25W 10K",
+            "puuid": "670dd02695aa428d90561a3662ada51f",
+            "uuid": "5081083fc867416c9f51f38625f50396"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "PKG-0.25W RESISTOR",
+          "R3",
+          {
+            "BOM_Supplier Part": "9339051",
+            "BOM_Supplier": "Element14",
+            "BOM_Manufacturer": "MULTICOMP",
+            "BOM_Manufacturer Part": "MCF 0.25W 10K",
+            "puuid": "670dd02695aa428d90561a3662ada51f",
+            "uuid": "5081083fc867416c9f51f38625f50396"
+          }
+        ],
+        [
+          "555",
+          1,
+          "NE 55555555555555555555555555555555555555555555555555555555555555555555555555555555",
+          "U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "f90d2f3f19894015b81d26e2a6af4be3",
+            "uuid": "cb1f94941c894c36a255128e23c99911"
+          }
+        ]
+      ],
+      "updateTime": 1663947859,
+      "createTime": 1663940891,
+      "histories": [],
+      "created_at": "2022-09-23 19:18:11",
+      "updated_at": "2022-09-23 21:14:19"
+    },
+    {
+      "uuid": "ac045ccf2da6f375bc04c75c62e56901",
+      "puuid": "ef802c90da1a82440f27d0fb75c4d276",
+      "title": "PCB_555 timer project",
+      "filename": "PCB_555 timer project.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "670dd02695aa428d90561a3662ada51f": 3,
+        "459af5656bdf454da600c67ffc8b29bc": 1,
+        "0fe311da5c9d412b97bf68b669667c5c": 1,
+        "36b1306a115341f4b4d9407fb34974e0": 1,
+        "ce0ed154d45b41508e0debca8473ba07": 2,
+        "f90d2f3f19894015b81d26e2a6af4be3": 1
+      },
+      "BOM": [],
+      "updateTime": 1663948246,
+      "createTime": 1663947875,
+      "histories": [],
+      "created_at": "2022-09-23 21:14:35",
+      "updated_at": "2022-09-23 21:20:46"
+    },
+    {
+      "uuid": "d17c7c9abfe88b56980ae85a86083572",
+      "puuid": "ef802c90da1a82440f27d0fb75c4d276",
+      "title": "PCB_555 timer project_2",
+      "filename": "PCB_555 timer project_2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f90d2f3f19894015b81d26e2a6af4be3": 1,
+        "ce0ed154d45b41508e0debca8473ba07": 2,
+        "36b1306a115341f4b4d9407fb34974e0": 1,
+        "0fe311da5c9d412b97bf68b669667c5c": 1,
+        "459af5656bdf454da600c67ffc8b29bc": 1,
+        "670dd02695aa428d90561a3662ada51f": 3
+      },
+      "BOM": [],
+      "updateTime": 1663949792,
+      "createTime": 1663948338,
+      "histories": [],
+      "created_at": "2022-09-23 21:22:18",
+      "updated_at": "2022-09-23 21:46:32"
+    }
+  ],
+  "sort": [],
+  "title": "555 timer project",
+  "foldername": "555 timer project",
+  "schfilename": "555 timer project.json",
+  "schfilemtime": 1663947859674
+}

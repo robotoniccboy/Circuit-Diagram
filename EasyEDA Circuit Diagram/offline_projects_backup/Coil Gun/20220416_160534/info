@@ -1,0 +1,111 @@
+{
+  "uuid": "fdfa342ab05e7f7a75e0f47613116665",
+  "path": "Offline/Coil%20Gun",
+  "name": "Coil Gun",
+  "content": "",
+  "created_at": "2022-04-16 15:40:13",
+  "updated_at": "2022-04-16 16:05:34",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "d38f767e3b8081a3e96f4e91e8c46b42",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "5ab1b33a5865e8a15fb17704e6a00836",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "46400e07149b45858a7e22bcc5e8f4a3": 1,
+        "acb50868ecf740bbba7d22d6299a22d7": 1,
+        "5c1036b53a4146e4841df4ed0a9de8f0": 2,
+        "67082a4ee642ac71e2dcdf6758d8dd66": 2,
+        "a7a0e276dadd4f8097422d2afc2e1b9c": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "CR1220-2",
+          2,
+          "BAT-SMD_CR1220-2",
+          "B1,B2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Q&J",
+            "BOM_Manufacturer Part": "CR1220-2",
+            "BOM_Supplier Part": "C70381",
+            "puuid": "ad4cf9a98ad04c21832cf27a15f0d202",
+            "uuid": "67082a4ee642ac71e2dcdf6758d8dd66"
+          }
+        ],
+        [
+          "1u",
+          1,
+          "CASE-A_3216",
+          "C1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ce25118ef0b041b8a773e71ca28ae65d",
+            "uuid": "a7a0e276dadd4f8097422d2afc2e1b9c"
+          }
+        ],
+        [
+          "K2-3.6×6.1_SMD",
+          2,
+          "KEY-SMD_2P-L6.2-W3.6-LS8.0",
+          "KEY1,KEY2",
+          {
+            "BOM_Supplier Part": "C118141",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "K2-1107ST-A4SW-06",
+            "puuid": "daacbe2eec304950b61eef2efe596556",
+            "uuid": "5c1036b53a4146e4841df4ed0a9de8f0"
+          }
+        ],
+        [
+          "AIRE COIL",
+          1,
+          "DONUT COIL 1COIL",
+          "L1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "ae820eef41a642a8ac62ec43fad450a0",
+            "uuid": "46400e07149b45858a7e22bcc5e8f4a3"
+          }
+        ],
+        [
+          "70TPS12",
+          1,
+          "TO-247-3_L15.9-W5.1-P5.44-L",
+          "Q1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C335786",
+            "BOM_Manufacturer": "Vishay Intertech",
+            "BOM_Manufacturer Part": "VS-70TPS12PBF",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "138a641d7b12499d8116e25bb56e2b7b",
+            "uuid": "acb50868ecf740bbba7d22d6299a22d7"
+          }
+        ]
+      ],
+      "updateTime": 1650105334,
+      "createTime": 1650103813,
+      "histories": [],
+      "created_at": "2022-04-16 15:40:13",
+      "updated_at": "2022-04-16 16:05:34"
+    }
+  ],
+  "sort": [],
+  "title": "Coil Gun",
+  "foldername": "Coil Gun",
+  "schfilename": "Coil Gun.json",
+  "schfilemtime": 1650105334622
+}

@@ -1,0 +1,154 @@
+{
+  "uuid": "279be910dddc9ce049c6b4922ca51103",
+  "path": "Offline/3S%2010A%20BMS",
+  "name": "3S 10A BMS",
+  "content": "This is the module used to control the voltage of 12 v battery pack and protect it from overvoltage,overdischarge and overcurrent protection",
+  "created_at": "2022-04-10 18:24:09",
+  "updated_at": "2022-07-05 21:13:30",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "59db56fe78736d08f98407246ffb9604",
+      "title": "3s 10A Schematic",
+      "description": "",
+      "docType": "1",
+      "master": "e88a7801ab74dfd466a57a9fc95fe36d",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "7948ec3f5a19444f80b8509754081833": 2,
+        "bb009484ef804a24ac5d18c54b249586": 23,
+        "3708d4472baf41e4aed45e2127d0a411": 3,
+        "5b204dbd80144c8aa242fab480824c46": 3,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 3,
+        "c1da4aa999134d9da3469ead2892bd94": 6,
+        "e33cc1be9d5e4d929dda60b4eb023d72": 1,
+        "e5a15be9de7f4580ae4e3087c0652429": 3
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "0.1u",
+          3,
+          "C0603",
+          "C1,C2,C3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "1N4007W",
+          1,
+          "SOD-123_L2.8-W1.8-LS3.7-RD",
+          "D1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C328592",
+            "BOM_Manufacturer": "BLUE ROCKET",
+            "BOM_Manufacturer Part": "1N4007W",
+            "puuid": "60a676d313ae48718a81c380b73dfe4f",
+            "uuid": "e33cc1be9d5e4d929dda60b4eb023d72"
+          }
+        ],
+        [
+          "AOD472",
+          2,
+          "TO-252-2_L6.6-W6.1-P4.57-LS9.9-BR-CW",
+          "Q1,Q6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C693172",
+            "BOM_Manufacturer": "VBsemi Elec",
+            "BOM_Manufacturer Part": "AOD472",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "2070be737d2d4c78a311b6f05f9d553e",
+            "uuid": "7948ec3f5a19444f80b8509754081833"
+          }
+        ],
+        [
+          "2N2222",
+          3,
+          "NPN",
+          "Q11,Q12,Q13",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "",
+            "uuid": "3708d4472baf41e4aed45e2127d0a411"
+          }
+        ],
+        [
+          "PMST5401",
+          6,
+          "SOT323",
+          "Q14,Q15,Q16,Q17,Q18,Q19",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "733d6ed7d77f43dea31f131f0a9ad485",
+            "uuid": "c1da4aa999134d9da3469ead2892bd94"
+          }
+        ],
+        [
+          "1k",
+          23,
+          "R0603",
+          "R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "DW01_C917079",
+          3,
+          "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL",
+          "U1,U4,U5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C917079",
+            "BOM_Manufacturer": "JSMSEMI(杰盛微)",
+            "BOM_Manufacturer Part": "DW01",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "9a066f903e65476fa74739d5e9b0ceb9",
+            "uuid": "5b204dbd80144c8aa242fab480824c46"
+          }
+        ],
+        [
+          "Li-ion battery",
+          3,
+          "LI-ION BATTERY",
+          "U2,U3,U6",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "eadbfdeb6f8f46bd998825f7336e6e11",
+            "uuid": "e5a15be9de7f4580ae4e3087c0652429"
+          }
+        ]
+      ],
+      "updateTime": 1657035810,
+      "createTime": 1649596627,
+      "histories": [],
+      "created_at": "2022-04-10 18:47:07",
+      "updated_at": "2022-07-05 21:13:30"
+    }
+  ],
+  "sort": [],
+  "title": "3S 10A BMS",
+  "foldername": "3S 10A BMS",
+  "schfilename": "3S 10A BMS.json",
+  "schfilemtime": 1657035810922
+}

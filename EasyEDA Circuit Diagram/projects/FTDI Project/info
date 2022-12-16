@@ -1,0 +1,161 @@
+{
+  "uuid": "6a8e2f8533229dd7bbbbaf812bbd736d",
+  "path": "Offline/FTDI%20Project",
+  "name": "FTDI Project",
+  "content": "",
+  "created_at": "2022-09-23 22:31:33",
+  "updated_at": "2022-09-23 23:53:11",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "940585940e6e4427a82df3954b647381",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "5652930ffae64f0781597a6e94aeea36": 1,
+        "2424886383e84ffd8b0d01d39a2eb4d6": 3,
+        "b4666fa29fc04339ba96a74150d6333e": 2,
+        "a90350ec02b44c459f34fcc4040a2b0c": 2,
+        "eaa76950fd7343a1953943ee7b9978d3": 1,
+        "23d98fe213b6494fb4d0992df6e0653e": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "CAP1206",
+          2,
+          "C1206",
+          "C1,C2",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "a40b49d1678c4ad28a1ad66e78d332f8",
+            "uuid": "a90350ec02b44c459f34fcc4040a2b0c"
+          }
+        ],
+        [
+          "RED",
+          1,
+          "LED_1206",
+          "D1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "be1bd4f5c47046e89dbbafc192af2b8c",
+            "uuid": "b4666fa29fc04339ba96a74150d6333e"
+          }
+        ],
+        [
+          "GREEN",
+          1,
+          "LED_1206",
+          "D2",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "be1bd4f5c47046e89dbbafc192af2b8c",
+            "uuid": "b4666fa29fc04339ba96a74150d6333e"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x4",
+          1,
+          "HDR-F-2.54_1X4",
+          "H1",
+          {
+            "BOM_Supplier Part": "C225501",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "21473b495b6340c992965357d5701779",
+            "uuid": "eaa76950fd7343a1953943ee7b9978d3"
+          }
+        ],
+        [
+          "USB",
+          1,
+          "USB-B-PTH",
+          "JP1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "2efc606da5a5471380f28bbcdb1febf8",
+            "uuid": "23d98fe213b6494fb4d0992df6e0653e"
+          }
+        ],
+        [
+          "330",
+          2,
+          "1206",
+          "R1,R2",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "a9583a3e61994f79bca1e6cf3aee21e3",
+            "uuid": "2424886383e84ffd8b0d01d39a2eb4d6"
+          }
+        ],
+        [
+          "Fuse",
+          1,
+          "1206",
+          "R3",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "a9583a3e61994f79bca1e6cf3aee21e3",
+            "uuid": "2424886383e84ffd8b0d01d39a2eb4d6"
+          }
+        ],
+        [
+          "FT232R",
+          1,
+          "SSOP-28",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "a1215174b2a1473e96ca72e59bd2c75c",
+            "uuid": "5652930ffae64f0781597a6e94aeea36"
+          }
+        ]
+      ],
+      "updateTime": 1663957061,
+      "createTime": 1663952494,
+      "histories": [],
+      "created_at": "2022-09-23 22:31:34",
+      "updated_at": "2022-09-23 23:47:41"
+    },
+    {
+      "uuid": "529d1df04c93ec97098887749f261f90",
+      "puuid": "6a8e2f8533229dd7bbbbaf812bbd736d",
+      "title": "PCB_FTDI Project",
+      "filename": "PCB_FTDI Project.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "a9583a3e61994f79bca1e6cf3aee21e3": 3,
+        "a40b49d1678c4ad28a1ad66e78d332f8": 2,
+        "be1bd4f5c47046e89dbbafc192af2b8c": 2,
+        "21473b495b6340c992965357d5701779": 1,
+        "2efc606da5a5471380f28bbcdb1febf8": 1,
+        "a1215174b2a1473e96ca72e59bd2c75c": 1
+      },
+      "BOM": [],
+      "updateTime": 1663957391,
+      "createTime": 1663956506,
+      "histories": [],
+      "created_at": "2022-09-23 23:38:26",
+      "updated_at": "2022-09-23 23:53:11"
+    }
+  ],
+  "sort": [],
+  "title": "FTDI Project",
+  "foldername": "FTDI Project",
+  "schfilename": "FTDI Project.json",
+  "schfilemtime": 1663957061746
+}

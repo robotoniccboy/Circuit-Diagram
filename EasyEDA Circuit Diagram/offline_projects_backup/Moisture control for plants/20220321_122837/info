@@ -1,0 +1,138 @@
+{
+  "uuid": "4fd429a75d0b73d527c2d775a93b2bfe",
+  "path": "Offline/Moisture%20control%20for%20plants",
+  "name": "Moisture control for plants",
+  "content": "this is the circuit diagram for moisture control for plants in summer as in summer plants require a lot of water so to keep them hydrated this circuit can be used.",
+  "created_at": "2022-02-16 20:06:27",
+  "updated_at": "2022-03-21 12:28:37",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "4733b874a54c725467eb19a6897b664d",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "f90ded3fe9dd2246be0bdab83d9e2983",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "6883afd36ef24737a99f26f6f036f272": 1,
+        "74d77a07896442ada54eb6b3051f2a69": 1,
+        "7a6bdc4f0d18424ea99e5a2ecef580d3": 1,
+        "f60d49e392e7414eb0d5b4f4abd63e8c": 1,
+        "e545f26e87c74952857381bd0bff848e": 2,
+        "5cbe824183374fac8e4c1ae848199ce3": 1,
+        "b0248eb51e084227889f2cb84eab79c4": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1u",
+          2,
+          "CASE-A_3216",
+          "C1,C2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ce25118ef0b041b8a773e71ca28ae65d",
+            "uuid": "e545f26e87c74952857381bd0bff848e"
+          }
+        ],
+        [
+          "LED-0603_R",
+          1,
+          "LED0603_RED",
+          "LED1",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "BOM_Supplier Part": "C72044",
+            "BOM_Supplier": "LCSC",
+            "puuid": "1efb3a885b5b4aecb6d41221a8f4d86b",
+            "uuid": "5cbe824183374fac8e4c1ae848199ce3"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R0603",
+          "R1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "ATMEGA328P",
+          1,
+          "ATMEGA328P",
+          "U1",
+          {
+            "BOM_EasyEDA": "E46335",
+            "BOM_Supplier Part": "E46335",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer": "ATMEL",
+            "BOM_Manufacturer Part": "328PU",
+            "puuid": "3e9c2ca39c824a4ea233a54a526ff321",
+            "uuid": "6883afd36ef24737a99f26f6f036f272"
+          }
+        ],
+        [
+          "Moisture sensor",
+          1,
+          "CURRENT-SENSOR-ACS712",
+          "U2",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "",
+            "uuid": "74d77a07896442ada54eb6b3051f2a69"
+          }
+        ],
+        [
+          "7805",
+          1,
+          "L7805",
+          "U3",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "1eac8be1a02c4fb8b97912588c8d4229",
+            "uuid": "f60d49e392e7414eb0d5b4f4abd63e8c"
+          }
+        ],
+        [
+          "5V water pump",
+          1,
+          "PUMP FOOTPRNT",
+          "WP1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "70a872b62c7e4949a056d71d961b9975",
+            "uuid": "7a6bdc4f0d18424ea99e5a2ecef580d3"
+          }
+        ]
+      ],
+      "updateTime": 1647880117,
+      "createTime": 1645059987,
+      "histories": [],
+      "created_at": "2022-02-16 20:06:27",
+      "updated_at": "2022-03-21 12:28:37"
+    }
+  ],
+  "sort": [],
+  "title": "Moisture control for plants",
+  "foldername": "Moisture control for plants",
+  "schfilename": "Moisture control for plants.json",
+  "schfilemtime": 1647880117797
+}

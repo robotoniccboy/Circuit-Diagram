@@ -1,0 +1,149 @@
+{
+  "uuid": "3898f1271a8f5d23c17f1e1041538c6b",
+  "path": "Offline/Transistor%20timer%20project",
+  "name": "Transistor timer project",
+  "content": "",
+  "created_at": "2022-09-22 19:37:42",
+  "updated_at": "2022-09-22 20:28:41",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "406b00886edd30424cfb6ce2914dd9b7",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f47a236193c54b08a4632df7767ed9c1": 2,
+        "fadb518935bb4a0ba6f5e0eb14897dc3": 1,
+        "98bc50ce35734d2aa59ff0b4d9a2e012": 1,
+        "30f787f45ad1452cb2883c785487e31e": 1,
+        "8850ffcdb9d242a1b431d4a3e2209db1": 1,
+        "ff9440b7ce96480584605958f32e578c": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1000uF",
+          1,
+          "CAP1000UFX25V-10X20(5MM, D-0.8)",
+          "C1",
+          {
+            "BOM_Supplier Part": "C88760",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Rubycon",
+            "BOM_Manufacturer Part": "16ZLH680MEFC8X16",
+            "puuid": "d3db232c7f7e45baad5a3bf0bfe533d6",
+            "uuid": "30f787f45ad1452cb2883c785487e31e"
+          }
+        ],
+        [
+          "LED-TH-5mm_R",
+          1,
+          "LED-TH_BD5.0_RED",
+          "LED1",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "333-2SURD/S530-A3",
+            "BOM_Supplier Part": "C87271",
+            "BOM_Supplier": "LCSC",
+            "puuid": "ce0ed154d45b41508e0debca8473ba07",
+            "uuid": "8850ffcdb9d242a1b431d4a3e2209db1"
+          }
+        ],
+        [
+          "BC547",
+          1,
+          "BC547",
+          "Q1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "c558fc4a84c440f08adbbd23a184fbed",
+            "uuid": "fadb518935bb4a0ba6f5e0eb14897dc3"
+          }
+        ],
+        [
+          "1K",
+          2,
+          "RESISTOR",
+          "R1,R2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "CFR0W4J0102A50",
+            "BOM_Supplier Part": "C61293",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "000a558ba26947b89f86b8947ce60aaa",
+            "uuid": "f47a236193c54b08a4632df7767ed9c1"
+          }
+        ],
+        [
+          "SWITCH-MOMENTARY-212MM",
+          1,
+          "TACTILE-PTH-12MM",
+          "S1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "21d83b4a55794dfbb21216b9310c58f7",
+            "uuid": "98bc50ce35734d2aa59ff0b4d9a2e012"
+          }
+        ],
+        [
+          "TERMINAL BLOCK 2 PINS",
+          1,
+          "5A_2PIN-TERMINALBLOCK",
+          "U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "765e430c5cdb410e81e178bba00116b2",
+            "uuid": "ff9440b7ce96480584605958f32e578c"
+          }
+        ]
+      ],
+      "updateTime": 1663857048,
+      "createTime": 1663855662,
+      "histories": [],
+      "created_at": "2022-09-22 19:37:42",
+      "updated_at": "2022-09-22 20:00:48"
+    },
+    {
+      "uuid": "dd4870d9a499478f4531183ae3a4da90",
+      "puuid": "3898f1271a8f5d23c17f1e1041538c6b",
+      "title": "PCB_Transistor timer project",
+      "filename": "PCB_Transistor timer project.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "d3db232c7f7e45baad5a3bf0bfe533d6": 1,
+        "ce0ed154d45b41508e0debca8473ba07": 1,
+        "c558fc4a84c440f08adbbd23a184fbed": 1,
+        "000a558ba26947b89f86b8947ce60aaa": 2,
+        "21d83b4a55794dfbb21216b9310c58f7": 1,
+        "765e430c5cdb410e81e178bba00116b2": 1
+      },
+      "BOM": [],
+      "updateTime": 1663858721,
+      "createTime": 1663857827,
+      "histories": [],
+      "created_at": "2022-09-22 20:13:47",
+      "updated_at": "2022-09-22 20:28:41"
+    }
+  ],
+  "sort": [],
+  "title": "Transistor timer project",
+  "foldername": "Transistor timer project",
+  "schfilename": "Transistor timer project.json",
+  "schfilemtime": 1663857048963
+}
