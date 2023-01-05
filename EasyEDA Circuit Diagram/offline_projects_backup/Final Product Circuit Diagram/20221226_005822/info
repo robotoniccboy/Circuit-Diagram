@@ -1,0 +1,156 @@
+{
+  "uuid": "d01ee742f6661757337f73f8b5c3e134",
+  "path": "Offline/Final%20Product%20Circuit%20Diagram",
+  "name": "Final Product Circuit Diagram",
+  "content": "",
+  "created_at": "2022-12-25 22:53:54",
+  "updated_at": "2022-12-26 00:58:22",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "bba60630dd4d946979e5ea94730a811f",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "b0c96ccd8eab18800ddc4f34bab049e2",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "2d69e41e46be4653a09c242d3c3a04ed": 1,
+        "3f7d53c3571c4d51be346f1eb60c79a1": 2,
+        "b7adf400643b4936be8b786704d0e70f": 1,
+        "6641c3e61a2240df9f91a74095b53f02": 1,
+        "ef03599b20614c75b636406d2df8743b": 1,
+        "10569b5631c44860b0203b6c85672936": 1,
+        "a6feb8b3f5af45cebf1faeeefeee979b": 1,
+        "48d72aa680584a7dbe71caae9fe267ec": 64
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "HC-05",
+          1,
+          "HC-05",
+          "A1",
+          {
+            "BOM_Manufacturer Part": "HC-05",
+            "puuid": "f35bef4852ec411a9e1fcbd7bc4af551",
+            "uuid": "ef03599b20614c75b636406d2df8743b"
+          }
+        ],
+        [
+          "connector 2 pin 2.54",
+          64,
+          "2_PIN_HEADER",
+          "CN1,CN2,CN3,CN4,CN5,CN6,CN7,CN8,CN9,CN10,CN11,CN12,CN13,CN14,CN15,CN16,CN17,CN18,CN19,CN20,CN21,CN22,CN23,CN24,CN25,CN26,CN27,CN28,CN29,CN30,CN31,CN32,CN33,CN34,CN35,CN36,CN37,CN38,CN39,CN40,CN41,CN42,CN43,CN44,CN45,CN46,CN47,CN48,CN49,CN50,CN51,CN52,CN53,CN54,CN55,CN56,CN57,CN58,CN59,CN60,CN61,CN62,CN63,CN64",
+          {
+            "BOM_Manufacturer Part": "RELIMATE CON 3 PIN",
+            "puuid": "9b91da242aa943ecacb995127f81ec8c",
+            "uuid": "48d72aa680584a7dbe71caae9fe267ec"
+          }
+        ],
+        [
+          "L7805",
+          1,
+          "L7805",
+          "U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "02a45aa25eda4c9fb2b8c46b4456a7ba",
+            "uuid": "2d69e41e46be4653a09c242d3c3a04ed"
+          }
+        ],
+        [
+          "Cap 470uf/25v",
+          2,
+          "470UF/25V_CAP-D10.0XF5.0 COPY",
+          "U2,U3",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "46987d02ec5c45f0804ba53a78b9f08a",
+            "uuid": "3f7d53c3571c4d51be346f1eb60c79a1"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C9900017879",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "ARDUINO_NANO",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Keypad",
+          1,
+          "KEYPAD",
+          "U5",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "ebdd405ae2d74bbf9f00a281c36c12f5",
+            "uuid": "6641c3e61a2240df9f91a74095b53f02"
+          }
+        ],
+        [
+          "MAX7219CWG+",
+          1,
+          "SOIC-24_L15.4-W7.5-P1.27-LS10.3-BL",
+          "U6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C1524040",
+            "BOM_Manufacturer": "MAXIM(美信)",
+            "BOM_Manufacturer Part": "MAX7219CWG+",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "97a59184404042c9acecd184d2165ea5",
+            "uuid": "10569b5631c44860b0203b6c85672936"
+          }
+        ],
+        [
+          "6X1-HEADER-MALE",
+          1,
+          "06X1-HEADER-MALE",
+          "U7",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "undefined",
+            "BOM_Supplier": "",
+            "puuid": "bee873eebc2b4e74a91f2f886f794162",
+            "uuid": "a6feb8b3f5af45cebf1faeeefeee979b"
+          }
+        ]
+      ],
+      "updateTime": 1671996502,
+      "createTime": 1671989034,
+      "histories": [],
+      "created_at": "2022-12-25 22:53:54",
+      "updated_at": "2022-12-26 00:58:22"
+    }
+  ],
+  "sort": [],
+  "title": "Final Product Circuit Diagram",
+  "foldername": "Final Product Circuit Diagram",
+  "schfilename": "Final Product Circuit Diagram.json",
+  "schfilemtime": 1671996502656
+}

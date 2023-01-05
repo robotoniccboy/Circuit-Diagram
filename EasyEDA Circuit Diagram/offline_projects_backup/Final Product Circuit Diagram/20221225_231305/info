@@ -1,0 +1,55 @@
+{
+  "uuid": "d01ee742f6661757337f73f8b5c3e134",
+  "path": "Offline/Final%20Product%20Circuit%20Diagram",
+  "name": "Final Product Circuit Diagram",
+  "content": "",
+  "created_at": "2022-12-25 22:53:54",
+  "updated_at": "2022-12-25 23:13:05",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "bba60630dd4d946979e5ea94730a811f",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "5aaf93e32dbbe2b11cccf15b7c0a22c2",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "2d69e41e46be4653a09c242d3c3a04ed": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "L7805",
+          1,
+          "L7805",
+          "U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "02a45aa25eda4c9fb2b8c46b4456a7ba",
+            "uuid": "2d69e41e46be4653a09c242d3c3a04ed"
+          }
+        ]
+      ],
+      "updateTime": 1671990185,
+      "createTime": 1671989034,
+      "histories": [],
+      "created_at": "2022-12-25 22:53:54",
+      "updated_at": "2022-12-25 23:13:05"
+    }
+  ],
+  "sort": [],
+  "title": "Final Product Circuit Diagram",
+  "foldername": "Final Product Circuit Diagram",
+  "schfilename": "Final Product Circuit Diagram.json",
+  "schfilemtime": 1671990185415
+}

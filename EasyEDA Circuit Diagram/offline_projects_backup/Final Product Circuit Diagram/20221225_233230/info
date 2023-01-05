@@ -1,0 +1,101 @@
+{
+  "uuid": "d01ee742f6661757337f73f8b5c3e134",
+  "path": "Offline/Final%20Product%20Circuit%20Diagram",
+  "name": "Final Product Circuit Diagram",
+  "content": "",
+  "created_at": "2022-12-25 22:53:54",
+  "updated_at": "2022-12-25 23:32:30",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "bba60630dd4d946979e5ea94730a811f",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "d8dbc62d2e90a0175e859329eaf2ae42",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "2d69e41e46be4653a09c242d3c3a04ed": 1,
+        "3f7d53c3571c4d51be346f1eb60c79a1": 2,
+        "b7adf400643b4936be8b786704d0e70f": 1,
+        "6641c3e61a2240df9f91a74095b53f02": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "L7805",
+          1,
+          "L7805",
+          "U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "02a45aa25eda4c9fb2b8c46b4456a7ba",
+            "uuid": "2d69e41e46be4653a09c242d3c3a04ed"
+          }
+        ],
+        [
+          "Cap 470uf/25v",
+          2,
+          "470UF/25V_CAP-D10.0XF5.0 COPY",
+          "U2,U3",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "46987d02ec5c45f0804ba53a78b9f08a",
+            "uuid": "3f7d53c3571c4d51be346f1eb60c79a1"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C9900017879",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "ARDUINO_NANO",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Keypad",
+          1,
+          "KEYPAD",
+          "U5",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "ebdd405ae2d74bbf9f00a281c36c12f5",
+            "uuid": "6641c3e61a2240df9f91a74095b53f02"
+          }
+        ]
+      ],
+      "updateTime": 1671991350,
+      "createTime": 1671989034,
+      "histories": [],
+      "created_at": "2022-12-25 22:53:54",
+      "updated_at": "2022-12-25 23:32:30"
+    }
+  ],
+  "sort": [],
+  "title": "Final Product Circuit Diagram",
+  "foldername": "Final Product Circuit Diagram",
+  "schfilename": "Final Product Circuit Diagram.json",
+  "schfilemtime": 1671991350287
+}
