@@ -1,0 +1,39 @@
+{
+  "uuid": "f3ca90f05ab55dc2a1f0fa9cabca46f3",
+  "path": "Offline/Miscel",
+  "name": "Miscel",
+  "content": "",
+  "created_at": "2023-01-30 13:01:12",
+  "updated_at": "2023-01-30 13:01:25",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "0503b1894d0f9c280c0c9d1127026832",
+      "title": "Half wave rectifier",
+      "description": "",
+      "docType": "1",
+      "master": "2ae560c5ba34b08e403cd42253b4f49c",
+      "thumb": "/images/thumb-default.png",
+      "components": {},
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1675063885,
+      "createTime": 1675063872,
+      "histories": [],
+      "created_at": "2023-01-30 13:01:12",
+      "updated_at": "2023-01-30 13:01:25"
+    }
+  ],
+  "sort": [],
+  "title": "Miscel",
+  "foldername": "Miscel",
+  "schfilename": "Miscel.json",
+  "schfilemtime": 1675063885825
+}

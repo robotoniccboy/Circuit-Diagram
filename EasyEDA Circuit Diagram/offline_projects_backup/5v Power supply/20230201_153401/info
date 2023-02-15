@@ -4,7 +4,7 @@
   "name": "5v Power supply",
   "content": "",
   "created_at": "2022-09-22 17:26:59",
-  "updated_at": "2023-02-01 15:43:18",
+  "updated_at": "2023-02-01 15:34:01",
   "stick": "",
   "documents": [
     {
@@ -138,14 +138,9 @@
       "title": "Schematic",
       "description": "",
       "docType": "1",
-      "master": "",
+      "master": "66498c36fdaf588c4492759f4797c645",
       "thumb": "/images/thumb-default.png",
-      "components": {
-        "c1353c63251d46d297a360e53af8fa94": 1,
-        "c33f80dfd386ecf42252d23f6f79b33c": 4,
-        "2a544762a97445a5ab7c769ccaa3ed53": 1,
-        "8e8d7e665ca04207aef52244e7317064": 1
-      },
+      "components": {},
       "BOM": [
         [
           "Value",
@@ -249,68 +244,13 @@
             "puuid": "765e430c5cdb410e81e178bba00116b2",
             "uuid": "ff9440b7ce96480584605958f32e578c"
           }
-        ],
-        [
-          "1000uF",
-          1,
-          "CAP-TH_BD10.0-P5.00-D1.0-FD",
-          "C2",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer": "CX(承兴)",
-            "BOM_Manufacturer Part": "GR108V025G20RR0VL4FP0",
-            "BOM_Supplier Part": "C43353",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "10740f144756421793e1ecc7520b3129",
-            "uuid": "2a544762a97445a5ab7c769ccaa3ed53"
-          }
-        ],
-        [
-          "1N4007RLG",
-          4,
-          "DO-41_BD2.4-L4.7-P8.70-D0.9-RD",
-          "D5,D6,D7,D8",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer": "onsemi(安森美)",
-            "BOM_Manufacturer Part": "1N4007RLG",
-            "BOM_Supplier Part": "C53568",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "c2803222ad4b48fb94db0de548a6280a",
-            "uuid": "c33f80dfd386ecf42252d23f6f79b33c"
-          }
-        ],
-        [
-          "6-0-6 / 500 mili amps transformer",
-          1,
-          "6-0-6/500 MILI AMPS TRANSFORMER",
-          "U3",
-          {
-            "BOM_Manufacturer Part": "New SchematicLib",
-            "puuid": "84d205ca9d99494cbda52c04a2fa8d4e",
-            "uuid": "c1353c63251d46d297a360e53af8fa94"
-          }
-        ],
-        [
-          "7805",
-          1,
-          "7805",
-          "U4",
-          {
-            "BOM_Manufacturer": "",
-            "BOM_Manufacturer Part": "",
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "puuid": "c78688a6e7be4356adaa4632a4d8d2a8",
-            "uuid": "8e8d7e665ca04207aef52244e7317064"
-          }
         ]
       ],
-      "updateTime": 1675246398,
+      "updateTime": 1675245841,
       "createTime": 1675245807,
       "histories": [],
       "created_at": "2023-02-01 15:33:27",
-      "updated_at": "2023-02-01 15:43:18"
+      "updated_at": "2023-02-01 15:34:01"
     },
     {
       "uuid": "f2eef6f755e5562f8bb4e7f3eeb9b666",
@@ -344,5 +284,5 @@
   "title": "5v Power supply",
   "foldername": "5v Power supply",
   "schfilename": "5v Power supply.json",
-  "schfilemtime": 1675246398012
+  "schfilemtime": 1675245841987
 }

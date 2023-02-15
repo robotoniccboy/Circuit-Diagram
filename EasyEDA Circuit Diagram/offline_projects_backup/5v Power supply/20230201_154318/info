@@ -138,7 +138,7 @@
       "title": "Schematic",
       "description": "",
       "docType": "1",
-      "master": "",
+      "master": "5d4a1aa0b1a3f6f8d7ccaf78f2cd6db0",
       "thumb": "/images/thumb-default.png",
       "components": {
         "c1353c63251d46d297a360e53af8fa94": 1,

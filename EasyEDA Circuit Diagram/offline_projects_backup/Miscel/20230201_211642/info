@@ -1,0 +1,233 @@
+{
+  "uuid": "f3ca90f05ab55dc2a1f0fa9cabca46f3",
+  "path": "Offline/Miscel",
+  "name": "Miscel",
+  "content": "",
+  "created_at": "2023-01-30 13:01:12",
+  "updated_at": "2023-02-01 21:16:42",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "0503b1894d0f9c280c0c9d1127026832",
+      "title": "Analog_Electronics-1",
+      "description": "",
+      "docType": "1",
+      "master": "cfec87ff8a8c325c02885a3d8274cbd8",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "fce6a42e4abc4fc7b79ca6c91aa720e3": 1,
+        "f54fe6d5767849f2b3a35a52ca58711f": 7,
+        "b0248eb51e084227889f2cb84eab79c4": 4,
+        "0bd800d0971c492ab30f7bc3acd4363b": 1,
+        "33ce620246b74913a13005f8ecd73c88": 1,
+        "6a7e89c44a744f3a8d0e3245772862aa": 1,
+        "fa342d64f4734a06968f2f2325e60cdd": 1,
+        "e532df011cc2489d85291fdaec9f1377": 1,
+        "85a43697147c4abe96dbd0a73a0af538": 1,
+        "beb7660708a0499fac6a060cc3851aa2": 1,
+        "014eee6c61e2423f9cfc367e3387554a": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1000UF/35v",
+          1,
+          "CAP-TH_BD8.0-P3.50-D0.6-FD",
+          "C1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C9900004739",
+            "BOM_Manufacturer Part": "100uF/50V",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "BOM_Manufacturer": "null",
+            "puuid": "90d1b58a2d284d63b5d026a0c4e38bab",
+            "uuid": "fa342d64f4734a06968f2f2325e60cdd"
+          }
+        ],
+        [
+          "470UF/50V",
+          1,
+          "CAP-TH_BD10.0-P5.00-D0.6-FD",
+          "C2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C9900005233",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "470uF/50V-10x20",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "5ccc8dbbf08f4341b4eaab7fcde021e4",
+            "uuid": "e532df011cc2489d85291fdaec9f1377"
+          }
+        ],
+        [
+          "1N4007E-E3/54",
+          6,
+          "DO-41_BD2.4-L4.7-P8.70-D0.9-RD",
+          "D1,D2,D3,D6,D7,D8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "VISHAY(威世)",
+            "BOM_Manufacturer Part": "1N4007E-E3/54",
+            "BOM_Supplier Part": "C144970",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "c2803222ad4b48fb94db0de548a6280a",
+            "uuid": "f54fe6d5767849f2b3a35a52ca58711f"
+          }
+        ],
+        [
+          "1N4007",
+          1,
+          "DO-41_BD2.4-L4.7-P8.70-D0.9-RD",
+          "D4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "VISHAY(威世)",
+            "BOM_Manufacturer Part": "1N4007E-E3/54",
+            "BOM_Supplier Part": "C144970",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "c2803222ad4b48fb94db0de548a6280a",
+            "uuid": "f54fe6d5767849f2b3a35a52ca58711f"
+          }
+        ],
+        [
+          "Zener_Diode",
+          1,
+          "DC-ZENER-DIODE",
+          "D5",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "a197abca9e7a4488bf54120c05dc1f87",
+            "uuid": "014eee6c61e2423f9cfc367e3387554a"
+          }
+        ],
+        [
+          "KT-1206Red LED",
+          1,
+          "LED1206-R-RD",
+          "LED1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "KENTO",
+            "BOM_Manufacturer Part": "KT-1206Red LED",
+            "BOM_Supplier Part": "C49018",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "a09626c384624c09a6dbda79dc8616ce",
+            "uuid": "fce6a42e4abc4fc7b79ca6c91aa720e3"
+          }
+        ],
+        [
+          "Header-Female-2.54_1x3",
+          1,
+          "HDR-TH_3P-P2.54-V-F",
+          "P1",
+          {
+            "BOM_Supplier Part": "C146243",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE(博穆精密)",
+            "BOM_Manufacturer Part": "2.54-1*3P母",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "cdd2a2f88f9047a3974e8fb98887b1dd",
+            "uuid": "beb7660708a0499fac6a060cc3851aa2"
+          }
+        ],
+        [
+          "4.7k",
+          2,
+          "R0603",
+          "R1,R2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "270R",
+          2,
+          "R0603",
+          "R3,R4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "SWITCH-SPDT",
+          1,
+          "SWITCHE-DPDT",
+          "S1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "fb8342c22ff34959b203cac5855eb0fc",
+            "uuid": "33ce620246b74913a13005f8ecd73c88"
+          }
+        ],
+        [
+          "Transformer 220-12V 500mA",
+          1,
+          "TRANSFORMER",
+          "TR1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "a9724b2469404210ad2c1a60804eae7e",
+            "uuid": "0bd800d0971c492ab30f7bc3acd4363b"
+          }
+        ],
+        [
+          "LM317T",
+          1,
+          "LM317T",
+          "U1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "1e75ee72ba174f8e99aa88c39453291d",
+            "uuid": "6a7e89c44a744f3a8d0e3245772862aa"
+          }
+        ],
+        [
+          "10K",
+          1,
+          "C10K POTENTIOMETER",
+          "U2",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "39f8d7a59e284ae7932ae6d58a6dc6d8",
+            "uuid": "85a43697147c4abe96dbd0a73a0af538"
+          }
+        ]
+      ],
+      "updateTime": 1675266402,
+      "createTime": 1675063872,
+      "histories": [],
+      "created_at": "2023-01-30 13:01:12",
+      "updated_at": "2023-02-01 21:16:42"
+    }
+  ],
+  "sort": [],
+  "title": "Miscel",
+  "foldername": "Miscel",
+  "schfilename": "Miscel.json",
+  "schfilemtime": 1675266402706
+}
